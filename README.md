@@ -30,7 +30,7 @@ Clone or download this repo
 ## Deploy and test....
 
 - Deploy `cd fn-elk/fn-syslog-example && fn -v deploy --app fn-elk-app --local`
-- Invoke `echo -n 'testmessage' | fn invoke fn-elk-app test`
+- Invoke `echo -n 'testmessage' | fn invoke fn-elk-app test` (repeat as needed)
 
 ## Check Kibana
 
